@@ -147,7 +147,7 @@ function getFolderPath(
     return `${code}/gallery/${objectName}`;
   } else if (headers.logo) {
     return `${code}/logo/${objectName}`;
-  } else if (headers.users === "users") {
+  } else if (headers.users) {
     return `${code}/users/${objectName}`;
   } else if (headers.materials) {
     return `${code}/materials/${objectName}`;
